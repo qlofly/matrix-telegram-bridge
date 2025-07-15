@@ -11,7 +11,7 @@ A simple Python bridge for bidirectional messaging between Telegram and Matrix, 
 ## Disclaimer
 > This experimental bridge was created with AI assistance and isn't intended for production use. While functional, it may contain imperfections and shouldn't be considered completely secure. It serves as a proof-of-concept that others can build upon.
 
-## How It Works
+
 
 ### Account Setup
 1. **Matrix Accounts**:
@@ -21,7 +21,9 @@ A simple Python bridge for bidirectional messaging between Telegram and Matrix, 
 2. **Matrix Room**:
    - Create a private room (unencrypted*) with both accounts
    - Note: Encryption was disabled for simplicity but can be implemented. Requires code modifications to support secure messaging.
-
+3. **Telegram key and hash**
+   - To receive your telegram ID, follow the instructions
+     https://docs.pyrogram.org/start/setup
 
 ### Configuration
 ```python
